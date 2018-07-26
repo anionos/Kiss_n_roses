@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    android:orientation="vertical"
+    tools:context="com.example.user.florally.MainActivity">
+
+    <TextView
+        android:id="@+id/floral_tv"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/kiss_n_roses"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+
+    <ImageView
+        android:layout_weight="1.5"
+        android:id="@+id/floral_img_v"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/kiss"
+        />
+
+    <android.support.v7.widget.CardView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="15dp"
+        android:layout_marginTop="-15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="25dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:padding="10dp"
+                    android:background="@android:color/transparent"
+                    android:tint="@color/colorPrimaryDark"
+                    android:src="@drawable/ic_call_black_24dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:text="+234-08087700816"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@android:color/black"
+                android:layout_marginLeft="20dp"
+                />
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:padding="10dp"
+                    android:background="@android:color/transparent"
+                    android:tint="@color/colorPrimaryDark"
+                    android:src="@drawable/ic_location_on_black_24dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:text="@string/ibom_e_library_uyo"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@android:color/black"
+                android:layout_marginLeft="20dp"
+                />
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:padding="10dp"
+                    android:background="@android:color/transparent"
+                    android:tint="@color/colorPrimaryDark"
+                    android:src="@drawable/ic_link_black_24dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:text="@string/www_kissnroses_com"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
